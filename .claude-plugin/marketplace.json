@@ -1,0 +1,22 @@
+{
+  "name": "personal-marketplace",
+  "owner": {
+    "name": "Lei Mou",
+    "email": "lei.mou.uu@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code Skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "workflow-skills",
+      "description": "Collection of personal workflow skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/smart-commit"
+      ]
+    }
+  ]
+}
