@@ -1,0 +1,23 @@
+{
+  "skill_name": "code-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review the staged changes in /home/lmou/workspace/skills/code-review-workspace/test-repo. I've added a new UserRepository class and some supporting modules.",
+      "expected_output": "A comprehensive review following the 6 dimensions with specific findings, prioritized recommendations, and code examples from the staged changes",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you review the code in /home/lmou/workspace/skills/code-review-workspace/test-repo/src/auth.js and /home/lmou/workspace/skills/code-review-workspace/test-repo/src/userService.js? Focus on architecture and design issues.",
+      "expected_output": "A modular review organized by functional units with architecture and design analysis, code quality assessment, and specific improvement recommendations",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Check the code quality of /home/lmou/workspace/skills/code-review-workspace/test-repo/src/. Focus on maintainability and code health. What are the main issues I should address?",
+      "expected_output": "A focused review on code health and maintainability dimensions with specific code smells, dead code, and refactoring opportunities prioritized by impact",
+      "files": []
+    }
+  ]
+}
